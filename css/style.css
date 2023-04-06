@@ -622,11 +622,13 @@ nav{
     right: -25%;
     background-color: #f16b6e;
     z-index: 97;
+    overflow: scroll;
+
 }
 #maingnb{
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 35%;
     transform: translate(-50%, -50%);
 }
 #maingnb li{
