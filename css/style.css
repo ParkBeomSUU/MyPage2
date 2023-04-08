@@ -323,8 +323,7 @@ progress {
 }
 
 .progress-element {
-    width: 300px;
-    margin: 0 0 10px;
+    width: 30%;
     margin-bottom: 3rem;
 }
 
@@ -503,8 +502,8 @@ progress {
 .progress-wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 7rem;
+    justify-content: start;
+    column-gap: 2rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -572,7 +571,7 @@ progress {
 }
 .gallery-img img{
     height: 300px;
-    margin-left: -150px;
+    margin-left: -5%;
 }
 .portfolio > div a {
     display: block;
