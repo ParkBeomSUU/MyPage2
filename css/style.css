@@ -550,7 +550,9 @@ progress {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    margin-left: -20%;
+
 }
 
 #works-gallery{
@@ -558,7 +560,6 @@ progress {
     justify-content: space-between;
     width: 100%;
     column-gap: 3rem;
-    margin-left: -15%;
 }
 #works-gallery > div{
     width: 300px;
@@ -571,7 +572,7 @@ progress {
 }
 .gallery-img img{
     height: 300px;
-    margin-left: -5%;
+    margin-left: -50%;
 }
 .portfolio > div a {
     display: block;
