@@ -550,8 +550,7 @@ progress {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: space-between;
-    margin-left: -20%;
+    margin-left: -15%;
 
 }
 
