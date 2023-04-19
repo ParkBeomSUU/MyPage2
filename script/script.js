@@ -1,3 +1,4 @@
+//자동 타이핑 기능
 $(function () {
     function autoType(elementClass, typingSpeed){
         var thhis = $(elementClass);
@@ -40,11 +41,11 @@ $(function () {
           }  
     });
 
-
-    var flag = 0;
+//슬라이드 효과 구현
+    var flag = 0; //변수 초기화
     $(".inner-wrap").hide();
-    $(".inner-wrap").eq(0).show();
-    $(window).on("wheel", function(event){
+    $(".inner-wrap").eq(0).show(); //숨기고 첫번째 요소만 보이도록
+    $(window).on("wheel", function(event){ //휠을 감지하여 마우스 스크롤 방향에 따라 플러그 수 값 조절
       var dir = event.originalEvent.wheelDelta;
       if(dir > 0 && flag > 0){
         flag--;

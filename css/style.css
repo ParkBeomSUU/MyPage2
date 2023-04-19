@@ -323,7 +323,8 @@ progress {
 }
 
 .progress-element {
-    width: 30%;
+    width: 300px;
+    margin: 0 0 10px;
     margin-bottom: 3rem;
 }
 
@@ -502,8 +503,8 @@ progress {
 .progress-wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    column-gap: 2rem;
+    justify-content: space-between;
+    column-gap: 7rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -550,8 +551,7 @@ progress {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-left: -15%;
-
+    /* justify-content: space-between; */
 }
 
 #works-gallery{
@@ -559,6 +559,7 @@ progress {
     justify-content: space-between;
     width: 100%;
     column-gap: 3rem;
+    margin-left: -15%;
 }
 #works-gallery > div{
     width: 300px;
@@ -571,7 +572,7 @@ progress {
 }
 .gallery-img img{
     height: 300px;
-    margin-left: -50%;
+    margin-left: -150px;
 }
 .portfolio > div a {
     display: block;
@@ -621,13 +622,11 @@ nav{
     right: -25%;
     background-color: #f16b6e;
     z-index: 97;
-    overflow: scroll;
-
 }
 #maingnb{
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 #maingnb li{
